@@ -1,6 +1,5 @@
 import os
 import sys
-import time
 import asyncio
 import aiohttp
 import aiofiles
@@ -97,10 +96,7 @@ if __name__ == "__main__":
     if ids[0] > ids[-1]:
         ids[0], ids[-1] = ids[-1], ids[0]
 
-    startTime = time.time()
     ids = range(ids[0], ids[-1]+1)
     asyncio.get_event_loop().run_until_complete(download_images(ids))
-    duration = time.time() - startTime
-    print(f"\nDuration duration{duration} seconds")
 
     sys.exit(0)
