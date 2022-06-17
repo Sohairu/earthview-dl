@@ -1,5 +1,5 @@
 # Google Earth View Downloader
-[Earth View](https://earthview.withgoogle.com/) is a collection of the most beautiful and striking landscapes found in Google Earth. Every landscape image has a unique id. For example, the id of the image on ```https://earthview.withgoogle.com/yellowstone-national-park-united-states-12277``` is ```12277```. This script makes it easier to download the images using their ids as it allows specifying a range of ids and automatically skips not found ones.
+[Earth View](https://earthview.withgoogle.com/) is a collection of the most beautiful and striking landscapes found in Google Earth. Every landscape image has a unique id. For example, the id of the image on ```https://earthview.withgoogle.com/antarctica-6488``` is ```6488```. This script makes it easier to download the images using their ids as it allows specifying a range of ids and automatically skips not found ones.
 
 ## Installation
 ```
